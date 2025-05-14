@@ -1,6 +1,6 @@
 const express = require("express");
 const { getUserScore, postScore, getCourseScore } = require("../Controllers/scoreController");
-const { verifyToken } = require("../middlewares/authmiddleware");
+const { verifyToken } = require("../middlewares/authMiddleware");
 const router = express.Router();
 
 /**
